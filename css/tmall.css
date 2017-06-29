@@ -1,0 +1,289 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/font-tmall/iconfont.eot');
+  src: url('../fonts/font-tmall/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/font-tmall/iconfont.woff') format('woff'),
+  url('../fonts/font-tmall/iconfont.ttf') format('truetype'),
+  url('../fonts/font-tmall/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+body{
+	background: #f5f5f5;
+}
+main,.content{
+	width: 1230px;
+	margin: 0 auto;
+	position: relative;
+}
+#logo,nav,#banner{
+	width: 100%;
+}
+
+/* header start */
+header{
+	color: #999;
+}
+header a{
+	color: #999!important;
+}
+header a:hover{
+    color: #f22e00!important;
+}
+/* header end */
+
+/* logo start */
+#logo{
+	height: 130px;
+	background: #fff;
+}
+h1{
+	width: 240px;
+	height: 130px;
+}
+h1 img{
+	float: left;
+	height: 130px;
+}
+.search{
+	width: 630px;
+	margin: 38px 0 0 128px;
+}
+.search form{
+	width: 621px;
+	height: 36px;
+	border: 2px solid #ff0036;
+	border-top-width: 1px;
+}
+.search input{
+	float: left;
+	padding-left: 8px;
+	width: 491px;
+	height: 36px;
+	border: 0;
+}
+.search button{
+	width: 130px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	background: #ff0036;
+	cursor: pointer;
+}
+.search ul{
+	margin-top: 8px;
+	overflow: hidden;
+}
+.search li{
+	float: left;
+	font-size: 14px;
+}
+.search li a{
+	padding: 0 13px;
+	color: #999;
+	border-right: 1px solid #999;
+}
+.search li.text-red a{
+	color: #ff0036;
+}
+.search li:first-child a,.search li:last-child a{
+	border-right: 0;
+}
+/* logo end */
+
+/* nav start */
+nav{
+	height: 36px;
+	line-height: 36px;
+	background: #ff0036;
+}
+nav li{
+    position: relative;
+	float: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+nav li a{
+	position: relative;
+    display: block;
+    padding: 0 15px;
+	height: 36px;
+    color: #fff;
+    z-index: 20;
+}
+nav li a:hover{
+	color: #fff;
+}
+nav li:first-child{
+	width: 200px;
+	height: 36px;
+	text-align: center;
+	color: #fff;
+	background: #e22127;
+}
+nav img{
+	height: 36px;
+}
+nav li i{
+	position: absolute;
+	top: 0;
+	left: 40px;
+	display: block;
+	width: 40px;
+	height: 15px;
+	background: url(../images/tmall/nav-mall.png) no-repeat;
+	transition: .3s;
+}
+nav li:nth-of-type(n+5) i{
+	left: 20px;
+}
+nav li:nth-of-type(4) i,nav li:nth-of-type(11) i,nav li:nth-of-type(12) i{
+	left: 25px;
+}
+nav li:hover i{
+	top: -15px;
+}
+/* nav end */
+
+/* banner start */
+#banner{
+	height: 500px;
+	background: #000;
+}
+.menu{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 500px;
+	background: #e6e6e8;
+}
+.menu li{
+	padding-left: 14px;
+	line-height: 31px;
+}
+.menu .iconfont{
+	margin-right: 8px;
+	color: #737374;
+}
+.menu li:hover{
+	font-weight: bold;
+	background: #fff;
+}
+.menu li:nth-of-type(1):hover .iconfont{
+	color: #e54077;
+}
+.menu li:nth-of-type(1):hover a{
+	color: #e54077;
+}
+.menu li:nth-of-type(2):hover .iconfont{
+	color: #427def;
+}
+.menu li:nth-of-type(2):hover a{
+	color: #427def;
+}
+.menu li:nth-of-type(3):hover .iconfont{
+	color: #6347ed;
+}
+.menu li:nth-of-type(3):hover a{
+	color: #6347ed;
+}
+.menu li:nth-of-type(4):hover .iconfont{
+	color: #e54077;
+}
+.menu li:nth-of-type(4):hover a{
+	color: #e54077;
+}
+.menu li:nth-of-type(5):hover .iconfont{
+	color: #6347ed;
+}
+.menu li:nth-of-type(5):hover a{
+	color: #6347ed;
+}
+.menu li:nth-of-type(6):hover .iconfont{
+	color: #427def;
+}
+.menu li:nth-of-type(6):hover a{
+	color: #427def;
+}
+.menu li:nth-of-type(7):hover .iconfont{
+	color: #fa5c5c;
+}
+.menu li:nth-of-type(7):hover a{
+	color: #fa5c5c;
+}
+.menu li:nth-of-type(8):hover .iconfont{
+	color: #f7a831;
+}
+.menu li:nth-of-type(8):hover a{
+	color: #f7a831;
+}
+.menu li:nth-of-type(9):hover .iconfont{
+	color: #f7a831;
+}
+.menu li:nth-of-type(9):hover a{
+	color: #f7a831;
+}
+.menu li:nth-of-type(10):hover .iconfont{
+	color: #427def;
+}
+.menu li:nth-of-type(10):hover a{
+	color: #427def;
+}
+.menu li:nth-of-type(10):hover .iconfont{
+	color: #dd2727;
+}
+.menu li:nth-of-type(10):hover a{
+	color: #dd2727;
+}
+.menu li:nth-of-type(11):hover .iconfont{
+	color: #427def;
+}
+.menu li:nth-of-type(11):hover a{
+	color: #427def;
+}
+.menu li:nth-of-type(12):hover .iconfont{
+	color: #f7a831;
+}
+.menu li:nth-of-type(12):hover a{
+	color: #f7a831;
+}
+.menu li:nth-of-type(12):hover .iconfont{
+	color: #3bc7b0;
+}
+.menu li:nth-of-type(12):hover a{
+	color: #3bc7b0;
+}
+.menu li:nth-of-type(13):hover .iconfont{
+	color: #dd2727;
+}
+.menu li:nth-of-type(13):hover a{
+	color: #dd2727;
+}
+.menu li:nth-of-type(14):hover .iconfont{
+	color: #3bc7b0;
+}
+.menu li:nth-of-type(14):hover a{
+	color: #3bc7b0;
+}
+.menu li:nth-of-type(15):hover .iconfont{
+	color: #dd2727;
+}
+.menu li:nth-of-type(15):hover a{
+	color: #dd2727;
+}
+.menu li:nth-of-type(16):hover .iconfont{
+	color: #427def;
+}
+.menu li:nth-of-type(16):hover a{
+	color: #427def;
+}
+/* banner end */

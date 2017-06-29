@@ -1,0 +1,757 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/font-auto/iconfont.eot');
+    src: url('../fonts/font-auto/iconfont.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/font-auto/iconfont.woff') format('woff'),
+    url('../fonts/font-auto/iconfont.ttf') format('truetype'),
+    url('../fonts/font-auto/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    margin-right: 3px;
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    height: 100%;
+    background: #fff;
+}
+
+a {
+    color: #999;
+}
+
+/*头部开始*/
+.content .iconfont {
+    color: #d81e06;
+    font-size: 12px;
+}
+
+.header-nav-l .iconfont {
+    font-size: 16px;
+}
+
+header a:hover {
+    color: #FF0036;
+}
+
+header {
+    width: auto;
+    height: 26px;
+    position: relative;
+    background: #f2f2f2;
+    z-index: 998;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+header li {
+    color: #999;
+}
+
+header a {
+    display: block;
+    height: 26px;
+    cursor: pointer;
+    z-index: 100001;
+    border: solid #f2f2f2;
+    border-width: 0 1px;
+    position: relative;
+}
+
+.content,
+#logo {
+    width: 990px;
+    margin: auto;
+}
+
+.header-nav-l {
+    height: 26px;
+}
+
+.loginin {
+    position: relative;
+    right: 7px;
+}
+
+.header-nav-l li {
+    height: 26px;
+    line-height: 26px;
+    margin-right: 20px;
+}
+
+.nav-menu-item {
+    position: relative;
+    padding: 0 6px;
+    height: 26px;
+    line-height: 26px;
+}
+
+.nav-menu-arrow {
+    margin-top: 12px;
+}
+
+.nav-menu-item a {
+    margin: 0;
+    color: #999;
+}
+
+.header-nav-r .header-nav-pipe {
+    height: 26px;
+    line-height: 26px;
+}
+
+.header-nav-l li {
+    margin-right: 15px;
+}
+
+
+/*头部导航结束*/
+/*侧边导航*/
+
+#sidenav {
+    width: 35px;
+    height: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #000;
+    z-index: 999;
+    text-align: center;
+}
+
+#sidenav a {
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin-top: 10px;
+    background: #000;
+}
+
+#sidenav a:hover {
+    background: #FF0036;
+}
+
+#sidenav .sidecart:hover .iconfont {
+    color: #fff;
+}
+
+#sidenav .sidecart:hover span {
+    border-top: 1px solid #FF0036;
+    border-bottom: 1px solid #FF0036;
+}
+
+#sidenav .iconfont {
+    font-size: 22px;
+    color: #fff;
+    margin-left: 2px;
+}
+
+#sidenav .sidecart {
+    height: 100px;
+}
+
+#sidenav .sidecart span {
+    width: 25px;
+    height: 98PX;
+    color: #fff;
+    font-size: 14px;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+    display: inline-block;
+}
+
+#sidenav .sidecart .iconfont {
+    font-size: 14px;
+    color: #FF0036;
+}
+
+#sidenav .maologo {
+    margin-top: 130px;
+}
+
+.sidemoney {
+    margin-top: 20px;
+}
+
+#sidenav .sideapp {
+    margin-top: 160px;
+}
+/*侧边导航结束*/
+
+
+/*logo区*/
+
+#logo {
+    height: 76px;
+}
+
+#logo h1 {
+    line-height: 76px;
+}
+
+#logo form {
+    margin-top: 24px;
+}
+
+.searchbox {
+    width: 447px;
+    height: 30px;
+    border: 3px solid #2941cc;
+    border-right: none;
+}
+
+.searchbutton {
+    height: 36px;
+    width: 90px;
+    background: #2941cc;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+/*logo区结束*/
+
+#banner {
+    width: 1190px;
+    margin: 20px auto 0;
+}
+
+.banner-title li {
+    height: 40px;
+    line-height: 40px;
+    margin-right: 20px;
+}
+
+.banner-title li a {
+    display: block;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    text-decoration: none;
+}
+
+.banner-title li a:hover {
+    color: #7D0000;
+    text-decoration: none;
+}
+
+.bannerlist {
+    border-right: none;
+    padding-bottom: 20px;
+    border: 1px solid #7D0000;
+    width: 188px;
+    background: #7D0000;
+}
+
+.bannerlist li {
+    width: 168px;
+    padding: 15px 10px 0;
+    background-color: #7D0000;
+    border: 1px solid #7D0000;
+    border-right-width: 0;
+    color: #fff;
+}
+
+.bannerlist p {
+    font-weight: bold;
+}
+
+.bannerlist li:hover {
+    background: #fff;
+    color: #7D0000;
+}
+
+.bannerlist li:hover a {
+    color: #7D0000;
+}
+
+.bannerlist a:hover {
+    text-decoration: underline;
+}
+
+.bannerlist a {
+    font-weight: normal;
+    font-size: 12px;
+    color: #e5cccc
+}
+
+.bannerbox {
+    width: 1000px;
+    height: 320px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bannerimg {
+    width: 3000px;
+    animation: banmove 6s infinite ease;
+}
+
+@keyframes banmove {
+    0%,
+    46% {
+        transform: translateX(0px);
+    }
+    49%,
+    95% {
+        transform: translateX(-1000px);
+    }
+    98%,100% {
+        transform: translateX(-2000px);
+    }
+}
+/*banner结束*/
+
+
+/*内容区结束*/
+
+#content {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.buycar-title,
+.car-loan-title {
+    border-bottom: 1px solid #000;
+}
+
+.buycar-title span,
+.car-loan-title span,
+#repeir span {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+.buycar-title a,
+.car-loan-title a {
+    color: #000;
+    font-size: 14px;
+    line-height: 36px;
+}
+
+.pagebox {
+    display: block;
+}
+
+.hdpicle .picle {
+    font-size: 24px;
+    color: #000;
+}
+
+.buycar ul,
+.car-loan ul,
+#repeir ul {
+    margin-top: 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.specpage {
+    border-right: 1px solid #e5e5e5;
+    padding: 10px 10px 26px;
+    position: relative;
+}
+
+.buycar ul li:last-child,
+.car-loan ul li:last-child,
+#repeir ul li:last-child {
+    border: none;
+}
+
+.firstimg img {
+    width: 237px;
+    height: 390px;
+}
+
+.brandlogo {
+    position: relative;
+    left: 5px;
+    bottom: 6px;
+    width: 70px;
+    height: 35px;
+}
+
+.brand span {
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 80px;
+    line-height: 37px;
+    font-weight: lighter;
+    width: 135px;
+}
+
+.carphoto {
+    width: 216px;
+    height: 216px;
+}
+
+.brand {
+    width: 216px;
+    position: absolute;
+    top: 189px;
+    background: rgba(0, 0, 0, .5);
+}
+
+.carname {
+    font-size: 14px;
+    color: #000;
+    line-height: 20px;
+    margin-top: 10px;
+    height: 40px;
+    width: 216px;
+    overflow: hidden;
+}
+
+.hdless {
+    font-size: 12px;
+    color: #5227DD;
+    line-height: 15px;
+    display: block;
+    height: 15px;
+    margin: 10px 0;
+    width: 216px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hdpicle {
+    border-top: 1px solid #E5E5E5;
+    padding: 22px 0;
+}
+
+.hdpicle span {
+    position: relative;
+    top: 8px;
+}
+
+.hdpicle p {
+    font-size: 24px;
+    color: #000;
+    line-height: 20px;
+    padding-top: 4px;
+}
+
+.bay-rightnow {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    background: #000;
+    position: absolute;
+    right: 10px;
+    bottom: 43px;
+}
+
+.specbox li:hover .bay-rightnow {
+    background: #5227DD;
+}
+
+.car-loan {
+    margin-top: 10px;
+}
+
+.carloan {
+    width: 32px;
+    height: 32px;
+    background-color: #FE0045;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    text-align: center;
+    line-height: 16px;
+}
+
+.car-loan .loanfa {
+    padding: 13px 0;
+}
+
+.car-loan .loanfa p {
+    position: relative;
+    bottom: 10px;
+    color: #1B1B1B;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.car-loan .hdless {
+    display: block;
+    margin: 10px 0;
+}
+
+.car-loan .specpage {
+    padding: 10px 10px 3px;
+}
+
+.car-loan .bay-rightnow {
+    bottom: 27px;
+}
+
+#repeir {
+    margin: 10px 0;
+}
+
+#repeir .loanfa {
+    padding: 13px 0;
+}
+
+.loanfa p {
+    position: relative;
+    bottom: 10px;
+    color: #1B1B1B;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+#repeir .hdless {
+    font-size: 12px;
+    color: #5227DD;
+    line-height: 15px;
+    margin: 10px 0;
+    display: block;
+    margin: 10px 0;
+}
+
+#repeir .specpage {
+    padding: 10px 10px 3px;
+}
+
+#repeir .bay-rightnow {
+    bottom: 27px;
+}
+
+#goodslist {
+    background-color: #EEECEA;
+    padding: 15px 16px;
+    box-sizing: border-box;
+}
+
+.goods-left {
+    width: 50%;
+}
+
+.goods-right {
+    border-left: 1px solid #000;
+}
+
+#goodslist i {
+    color: #5F646E;
+    font-size: 40px;
+}
+
+.goods-desc {
+    padding: 8px 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+.goods-menu {
+    width: 400px;
+}
+
+.goods-rimenu {
+    width: 300px;
+}
+
+.goods-menu a,
+.goods-rimenu a {
+    float: left;
+    width: 90px;
+    height: 24px;
+    background-color: #fff;
+    border: 1px solid #000;
+    text-decoration: none;
+    line-height: 24px;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    margin: 2px 5px 2px 0;
+}
+
+.repeirbox {
+    margin-top: 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.repeirbox .hdless {
+    display: block;
+    font-size: 12px;
+    color: #5227DD;
+    line-height: 15px;
+    margin: 10px 0;
+    width: 216px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.repeirbox li {
+    height: 376px;
+}
+
+.repeirbox li:last-child {
+    border: none;
+}
+
+.repeirbox .bay-rightnow {
+    bottom: 28px;
+}
+
+.repeirbox .selas {
+    font-size: 12px;
+    color: #999;
+}
+
+.repeirbox .hdpicle {
+    border-top: 1px solid #E5E5E5;
+    padding: 10px 0;
+}
+
+#firandlink {
+    width: 100%;
+    border-top: 1px solid #D1D7DC;
+    text-align: center;
+    overflow: hidden;
+}
+
+.service {
+    width: 1190px;
+    height: 100px;
+    background: url(../images/auto/fir.jpg) no-repeat;
+    margin: 25px auto;
+    padding: 0;
+}
+
+.service a {
+    float: left;
+    display: block;
+    width: 297px;
+    height: 100px;
+    text-indent: -1000em;
+}
+
+.frinde {
+    width: 1190px;
+    border-top: 1px solid #ededed;
+    margin: 0 auto;
+    padding-top: 22px;
+    height: 190px;
+    border-top: 1px solid #ededed;
+    background: url(../images/auto/footback.png) 45px bottom/68px 25px no-repeat;
+}
+
+dl {
+    width: 186px;
+    padding-left: 52px;
+}
+
+dt {
+    color: #646464;
+    font-size: 16px;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+
+dd {
+    text-align: left;
+}
+
+.frinde a {
+    width: 100px;
+    overflow: hidden;
+    text-align: left;
+    height: 20px;
+    line-height: 20px;
+    color: #8b8b8b;
+}
+
+
+/*友情链接结束*/
+
+footer {
+    width: 100%;
+    background: #000;
+    border-top: 2px solid #2941cc;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer .tb-footer-links {
+    border: none;
+}
+
+footer .tb-footer-links p {
+    border-bottom: 0;
+}
+
+footer .tbfooter {
+    background: #000;
+    width: 1190px;
+    margin: 0 auto;
+}
+
+footer .tb-footer-links p {
+    margin-bottom: 0px;
+}
+
+.tb-footer-links a {
+    color: #fff;
+}
+
+.aboutme {
+    margin-top: 10px;
+}
+
+.aboutme li a {
+    color: #fff;
+    margin-right: 5px;
+}
+
+.copyright {
+    position: relative;
+}
+
+.copyright p {
+    line-height: 20px;
+    background: #000;
+    color: #a4a4a4;
+}
+
+.copyright a {
+    margin-right: 65px;
+}
+
+.picnub {
+    padding-left: 30px;
+}
+
+.copyright .banquan {
+    color: #686868;
+}
+
+.copyright img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 36px;
+    left: 400px;
+}

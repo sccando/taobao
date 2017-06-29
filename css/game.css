@@ -1,0 +1,320 @@
+body{
+	background: #fff;
+}
+/* logo start */
+.logo{
+	margin: 0 auto;
+	width: 1190px;
+	height: 75px;
+}
+.logo h1{
+	margin-top: 15px;
+	width: 330px;
+}
+.logo img{
+	margin-right: 15px;
+}
+.logo form{
+	margin-top: 20px;
+	width: 499px;
+	height: 35px;
+}
+.logo input{
+	float: left;
+	padding-left: 12px;
+	width: 417px;
+	height: 35px;
+	color: #999;
+	border: 2px solid #ff4201;
+}
+.logo button{
+	width: 78px;
+	height: 35px;
+	line-height: 35px;
+	background: #ff4201;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+}
+/* logo end */
+
+/* nav start */
+nav{
+	margin-top: 35px;
+	width: 100%;
+	height: 38px;
+	font-size: 14px;
+	font-weight: bold;
+	background: #0dc3ce;
+}
+nav .content{
+	position: relative;
+}
+nav .content>span{
+	display: block;
+	position: absolute;
+	top: -35px;
+	left: 0;
+	width: 76px;
+	height: 35px;
+	line-height: 35px;
+	font-weight: bold;
+	text-align: center;
+	background: #0dc3ce;
+}
+nav a{
+	color: #fff;
+}
+nav a:hover{
+	color: #fff;
+}
+nav li{
+	float: left;
+	margin-top: 10px;
+	width: 237px;
+	height: 22px;
+	font-weight: bold;
+	border-right: 1px solid #45d4dc;
+}
+nav li:last-child{
+	border: 0;
+}
+nav li a{
+	padding-left: 10px;
+}
+/* nav end */
+
+.banner,main{
+	width: 1190px;
+	margin: 0 auto;
+}
+/* banner start */
+.banner{
+	margin-top: 20px;
+}
+/* banner-part start */
+.banner-img{
+	width: 890px;
+}
+.banner-img img{
+	float: left;
+}
+.charge{
+	width: 300px;
+	height: 336px;
+}
+.charge-msg{
+	padding-left: 40px;
+}
+.charge-tag{
+	line-height: 30px;
+}
+.charge-tag a{
+	padding: 0 22px 0 8px;
+}
+.charge-cata{
+	width: 215px;
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #ccc;
+}
+.charge-cata:hover{
+	border: 1px solid #b7b7b7;
+}
+.charge-cata span,.charge-cata b,.charge-cata i{
+	display: inline-block;
+	font-weight: normal;
+}
+.charge-cata span{
+	margin-right: 10px;
+	width: 30px;
+	height: 24px;
+	background: #e5e5e5;
+	border-right: 1px solid #e0e0e0;
+	color: #666;
+	text-align: center;
+}
+.charge-cata i{
+	float: right;
+	margin: 4px 7px 0 0;
+	width: 19px;
+	height: 15px;
+	background: url(../images/game/icons.png) no-repeat -20px -57px;
+}
+.charge-cata:hover i{
+	background-position: 0 -57px;
+}
+.charge-num{
+	border-top: 1px solid #fff;
+}
+.charge-num i{
+	margin-right: 10px;
+	background-position: -20px -18px;
+}
+.charge-num:hover i{
+	background-position: 0 -18px;
+}
+.charge-price,.charge-method{
+	display: inline-block;
+}
+.charge-price{
+	margin: 10px 40px 0 0;
+	color: #999;
+}
+.charge-price b{
+	display: inline-block;
+	margin-left: 4px;
+	font-size: 10px;
+	color: #f40;
+}
+.charge-method i{
+	position: relative;
+	top: 3px;
+	margin-right: 4px;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: url(../images/game/icons.png) no-repeat -22px -33px;
+}
+.checked{
+	margin-right: 10px;
+}
+.checked i{
+	background-position: -4px -33px;
+}
+.charge-go{
+	display: block;
+	margin-top: 7px;
+	width: 68px;
+	height: 27px;
+	line-height: 27px;
+	font-weight: bold;
+	text-align: center;
+	background: #f40;
+}
+.charge-go a{
+	color: #fff;
+}
+/* banner-part end */
+/* ad start */
+.ad{
+	margin-top: 10px;
+}
+.ad-item{
+	float: left;
+	width: 296px;
+	height: 218px;
+	border: 1px solid #e5e5e5;
+	border-right: 0;
+}
+.ad-item:last-of-type{
+	border-right: 1px solid #e5e5e5;
+}
+.ad-img{
+	display: block;
+	width: 296px;
+	height: 160px;
+	text-align: center;
+}
+.ad-img span{
+	display: inline-block;
+	height: 160px;
+	vertical-align: middle;
+}
+.ad-img img{
+	vertical-align: middle;
+}
+.ad-item ul{
+	width: 202px;
+	margin: 0 auto;
+}
+.ad-item li{
+	float: left;
+	line-height: 30px;
+	color: #e8e8e8;
+}
+.ad-item li a{
+	font-size: 14px;
+	padding: 0 15px;
+}
+.ad-item li a:hover{
+	color: #0dc3ce;
+}
+/* ad end */
+/* banner end */
+
+/* main start */
+main{
+	margin-top: 10px;
+}
+.game-item h3{
+	margin: 50px 0 25px;
+	font-size: 24px;
+	line-height: 24px;
+}
+.game-item h3 img{
+	position: relative;
+	top: -2px;
+}
+.game-index{
+	margin: 0 23px 24px 0;
+	width: 280px;
+	height: 365px;
+}
+.game-item div:nth-of-type(4n){
+	margin-right: 0;
+}
+.game-msg{
+	margin: 0 23px 24px 0; 
+	width: 278px;
+	height: 364px;
+	border: 1px solid #ebebeb;
+}
+.game-msg>a{
+	display: block;
+	width: 278px;
+	height: 220px;
+}
+.game-msg>a img{
+	width: 278px;
+	height: 220px;
+}
+.game-msg .game-title{
+	padding-left: 10px;
+	font-size: 20px;
+	line-height: 36px;
+}
+.game-msg .game-addition{
+	padding-left: 10px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #666;
+}
+.game-msg .game-price{
+	padding-left: 10px;
+	font-size: 16px;
+	line-height: 42px;
+	color: #f40;
+}
+.game-price i{
+	font-style: normal;
+	font-size: 10px;
+}
+.game-msg .game-go{
+	font-size: 20px;
+	line-height: 42px;
+	text-align: center;
+	font-weight: bold;
+	background: #0dc3ce;
+}
+.game-msg .game-go a{
+	color: #fff;
+}
+/* main end */
+
+/* footer start */
+footer{
+	width: 100%;
+}
+/* footer end */

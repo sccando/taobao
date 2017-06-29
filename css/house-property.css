@@ -1,0 +1,364 @@
+body {
+    background: #fff;
+}
+.content a:hover{
+    color: #f22e00;
+
+}
+
+#logo {
+    width: 1190px;
+    margin: 18px auto;
+}
+
+#logo form {
+    width: 440px;
+    height: 30px;
+    border: 2px solid #ff4400;
+    margin: 4px 3px 0 0;
+}
+
+.place {
+    margin-top: 12px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 15px;
+    border-left: 1px solid #f6f6f6;
+    cursor: pointer;
+}
+
+.place p {
+    font-size: 16px;
+    padding-right: 24px;
+    background: url(../images/house-property/arrow2.png)no-repeat right 12px;
+}
+
+.newhouse {
+    padding: 0 10px;
+    width: 46px;
+    height: 30px;
+    cursor: pointer;
+    line-height: 30px;
+    display: inline-block;
+    background: #fafafa url(../images/house-property/arrow.png) no-repeat right 6px;
+}
+
+.searchbox {
+    width: 296px;
+    height: 30px;
+}
+
+.search {
+    color: #fff;
+    width: 78px;
+    height: 30px;
+    background: #ff4400;
+}
+
+#logo button {
+    width: 80px;
+    height: 34px;
+    background: #fff0e7;
+    color: #ff4400;
+    border: 1px solid #ff4400;
+    margin-top: 4px;
+}
+
+
+/*logo区结束*/
+
+
+/*导航区开始*/
+
+nav {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+nav a {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #97b921;
+}
+
+nav li:hover a {
+    color: #97b921;
+}
+
+nav li {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 16px;
+}
+
+.qicknav {
+    width: 220px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    background: #97b921;
+}
+
+
+/*导航结束*/
+
+
+/*轮播图*/
+
+#banner-wrap {
+    width: 100%;
+    height: 330px;
+    background: url(../images/house-property/banner.jpg) no-repeat
+}
+
+.banner {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.banner-left {
+    width: 220px;
+    height: 330px;
+    background: rgba(0, 0, 0, .7);
+}
+
+.banner-left p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    padding: 10px 0 2px 15px;
+}
+
+.banner-left ul {
+    padding: 10px 8px 10px 8px;
+}
+
+.banner-left li {
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.banner-left a {
+    width: 58px;
+    color: #fff;
+    padding-left: 9px;
+    display: inline-block;
+    border-right: 1px solid #494444;
+}
+
+.banner-left a:hover {
+    text-decoration: underline;
+}
+
+.banner-left .border0 {
+    border: none;
+}
+
+
+/*轮播图结束*/
+
+#mian {
+    width: 1190px;
+    margin: 50px auto 0;
+}
+
+.house-title {
+    height: 35px;
+}
+
+.house-title p {
+    line-height: 35px;
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+}
+
+.house-title span {
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 35px;
+    color: #000;
+    font-weight: bold;
+    background: url(../images/house-property/icon2.png) no-repeat -544px -84px;
+}
+
+.house-title a {
+    color: #7d7d7d;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.house ul,
+.rental ul {
+    margin-top: 10px;
+}
+
+.house li,
+.rental li {
+    margin-right: 23px;
+}
+
+.house li:last-child,
+.rental li:last-child {
+    margin-right: 0;
+}
+
+.house-img {
+    width: 280px;
+    height: 210px;
+    position: relative;
+}
+
+.house-img img {
+    width: 280px;
+    height: 210px;
+}
+
+.house-char {
+    width: 280px;
+    height: 40px;
+    color: #fff;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.house-char span {
+    font-size: 13px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: left;
+    padding-left: 12px;
+    margin-left: 4px;
+    background: url(../images/house-property/icon2.png) no-repeat 0 -64px;
+}
+
+.house-introd {
+    height: 40px;
+    line-height: 40px;
+    color: #000;
+}
+
+.house-introd span {
+    font-size: 14px;
+}
+
+.house-introd em {
+    font-style: normal;
+    color: red;
+}
+
+.rental {
+    margin-top: 20px;
+}
+
+.rental .house-char span {
+    padding: 0 20px;
+    margin: 0;
+    width: 240px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background: rgba(0, 0, 0, .6);
+}
+
+.rental .house-introd {
+    padding: 0 10px;
+    width: 258px;
+    height: 38px;
+    border: 1px solid #e1e1e1;
+}
+
+.imgbox {
+    margin: 35px 0 20px;
+}
+
+.middleimg {
+    margin: 0 6px;
+}
+
+
+/*主要区域结束*/
+
+#frindlink {
+    width: 1190px;
+    margin: 0 auto;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding: 30px 10px 20px 10px;
+}
+
+.foot-logo {
+    width: 169px;
+    margin-right: 54px;
+    padding-top: 70px;
+    background: url(../images/house-property/icon.png) no-repeat 25px 10px;
+    text-align: right;
+    overflow: hidden;
+}
+
+.foot-point {
+    width: 100px;
+    padding-top: 60px;
+    text-align: center;
+    background: url(../images/house-property/icon.png) no-repeat 0 0;
+}
+
+.link-left {
+    width: 50%;
+}
+
+.link-left div:nth-of-type(2) {
+    background-position: 35px -90px;
+}
+
+.link-left div:nth-of-type(3) {
+    background-position: 35px -190px;
+}
+
+.link-left div:nth-of-type(4) {
+    background-position: 35px -290px;
+}
+
+.link-right {
+    width: 50%;
+}
+
+.link-right dl {
+    width: 33%;
+    border-left: 1px solid #DDD;
+}
+
+.link-right dt {
+    font-weight: 700;
+}
+
+.link-right dt,
+.link-right dd {
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.link-right a:hover {
+    color: #666;
+    text-decoration: underline;
+}
+/*友情链接结束*/
+footer{
+	width: 1190px;
+	margin: 0 auto;
+}
+footer .tb-footer-links {
+    padding-top: 7px;
+    border-top: 0;
+}
